@@ -1,0 +1,169 @@
+html, body{
+	margin: 0;
+	height: 100%
+}
+
+.li ul {
+	z-index: 100;
+  list-style-type: none;
+  background-color: white;
+
+}
+.li li {
+	display: inline;
+	color: white;
+}
+.li ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+.li li {
+  float: right;
+}
+.li li a {
+  display: block;
+  color: #230720;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.li li a:hover {
+  background-color: #b734cf;
+}
+
+.bowery{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	background-color: #f3f3f3;
+	height: 250px;
+	margin-top: -12px;
+	z-index: 1;
+}
+
+.site{
+	margin-top: -65px;
+	margin-left: 1185px;
+	padding-right: 10px;
+}
+
+#fb,#in,#lk,#tw{
+	padding-left: 10px
+}
+
+#logo{
+	padding-top: 98px;
+	padding-left: 400px;
+}
+
+.gallery{
+	position: absolute;
+	right: 0;
+	top: 320px;
+	margin-left: 60px;
+	color: black;
+	padding: 0 -20px;
+	text-align: center;
+
+}
+.gallery .image{
+	width: 25%;
+	margin: 0.9% 0px;
+	float: left;
+	margin: 20px -10px
+}
+.image img{
+	width: 80%;
+	transition: all ease 0.5s;
+
+}
+.image img:hover{
+	transform: scale(1.08);
+	-webkit-transform: scale(1.08);
+	opacity: 50%
+}
+
+
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+	font-size: 32px;
+	font-family: 'Abel', sans-serif;
+	margin-top: 0px;
+}
+
+#p22{
+	margin-top: -0px;
+	font-size: 32px;
+	font-family: 'Abel', sans-serif;
+}
+
+#dt,#ev{
+	font-size: 15px;
+	font-family: 'Abel', sans-serif;
+	color: grey;
+}
+
+#dt{
+	margin-top: 10px;
+}
+#ev{
+	margin-top: -10px;
+}
+
+
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 130%;
+}
+.footer {
+  height: 530px;
+  background-color: #230720;
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'Abel', sans-serif;
+	color: #f6e8f2;
+	font-size: 110%
+}
+
+.signform{
+	padding-top: 20px;
+	
+}
+
+#p1{
+	margin-top: -1px
+}
+
+.inputtext{
+	border: 2px solid white;
+	background:transparent;
+	color: #f6e8f2;
+	height: 45px;
+	width: 230px;
+	padding-left: 10px;
+	margin-left: 10px
+}
+
+.submitbutton{
+	width: 160px;
+	height: 50px;
+	background-color: #f6e8f2;
+	color: purple;
+	font-size: 18px;
+	border-radius: 5px;
+	font-weight: bold;
+	clear: both;
+	margin-top: 0px;
+	margin-left: 10px
+}
+
+.site2{
+	margin-top: 40px
+}
+
+#p2{
+	margin-top: 60px;
+	word-spacing: 10px
+}
